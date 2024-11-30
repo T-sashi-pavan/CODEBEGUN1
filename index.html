@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SWIGGY</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css" />
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style >
+  div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+</style>
+</head>
+<body style="background:#FF6600">
+	<div class="container-fluid" style="background:#FF6600;">
+			<nav class="navbar  fixed-top" style="background:#FF6600;">
+  <div class="container-fluid" style="font-family: fantasy;color: white;">
+ <a class="nav-link active" aria-current="page" href="#"><img src="https://res.cloudinary.com/dutdah0l9/image/upload/v1720058694/Swiggy_logo_bml6he.png" height="70px" > </a> 
+  <a class="nav-link active me-100" aria-current="page" href="#" style="font-family: fantasy;color: white;">Swiggy Corporate</a>
+  <a class="nav-link " href="#">Partner with us</a>
+    <button class="btn btn-outline-dark me-2" style="color: white;border: 1px solid white;" type="button">Get the App</button>
+     <button class="btn btn-outline-dark me-2" type="button" style="border: 1px solid white;">Sign in</button>
+     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation" style="color: white;border: 1px solid white;">
+      <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i>
+</span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="background-image: url('https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Veggies_new.png')">
+      <div class="offcanvas-header" >
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">SWIGGY</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body" >
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <h1 style="color: #FF6600; font-family:cursive;">WELCOME TO FOOD WORLD</h1>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search" >
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn " style="background: #FF6600;" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+	</div>
+
+  <div class="container-fluid" style="background:#FF6600; padding: 150px 0px 0px 0px;">
+    <div class="col text-center" style="color: white;font-family: fantasy;">
+      <h1>Order food. Shop</h1>
+      <h1>groceries. Swiggy it!</h1>
+    </div>
+  <div class="row align-items-center">
+    <!-- Column 1 -->
+   <div class="col text-center" >
+        <nav class="navbar navbar-expand-lg navbar-light " style="padding-left:220px;width:500px" >
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul class="navbar-nav mr-auto">
+                    <!-- Dropdown for Location -->
+                    <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle bg-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="width:400px">
+                            Share Your Location
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Guntur</a>
+                            <a class="dropdown-item" href="#">Hyderabad</a>
+                            <a class="dropdown-item" href="#">Chennai</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="col text-center">
+  <form class="form-inline my-2 my-lg-0 d-flex g-10" >
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width:500px">
+    </form>    </div>
+  </div>
+</div>
+
+
+  <div class="container-fluid  " style="background:#FF6600;margin-top: 150px;padding:10px 750px 0px 0px ; display: flex;">
+    <div>
+       <a href="#" class="btn btn-white " style="padding-left: 100px;"> <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/faa6d07d-e43c-4aa1-90d8-eda6c14e467d_Food2BU.png" width="500px" height="250px"></a>
+     </div>
+     <div style="padding-left: 70px;">
+     <a href="#" class="btn btn-white " style="float: right;"> <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/30/c1a4c945-fdf5-4418-af0b-4fb179b1e108_Genie2BU.png" width="500px" height="250px"></a>
+      </div>
+
+  </div>
+    
+    <div class="container-fluid p-5 my-5 bg-white">
+    <h1 style="text-align:center;color: orange;">ORDER OUR BEST FOOD OPTIONS</h1>
+     <hr style="color:navy;position: relative;border: none;height: 5px;background: navy;">
+   
+<div class="scroll-container bg-white" style="display: flex;">
+<img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Biryani.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pizza.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Burger.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pastry.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pasta.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img srchttps://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Samosa.png="" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Shake.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Dosa.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Cake.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Chinese.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Poori.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Rolls.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Momo.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pakoda.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pav%20Bhaji.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Shawarma.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Cutlet.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pancake.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+ <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Noodles.png" style="color:white;padding: 30px 20px;width: 200px;height: 200px;">
+
+
+</div>
+
+  </div>
+
+ <div class="container-fluid p-5 my-5 bg-white">
+    <h1 style="text-align:center;color: orange;">TOP RESTAURANT CHAINS IN GUNTUR</h1>
+     <hr style="color:navy;position: relative;border: none;height: 5px;background: navy;">
+   
+<div class="scroll-container bg-white" style="display: flex;gap:10px">
+<div class="card" style="color:#ff6600;width: 300px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/18/0af92d09-412d-4768-b4dd-4fa5fc0d11d1_697204.jpg" alt="Card image cap" height="150px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div>
+ <div class="card" style="color:#ff6600;width: 300px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/5/716cd867-e317-4f5a-b066-01d8332f6f62_620962.JPG" alt="Card image cap" height="150px">
+    <h5 class="card-title" style="color:#ff6600">KFC</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div>
+
+<div class="card" style="color:#ff6600;width: 300px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/3632e911860bd3a90f9558fc81372b73" alt="Card image cap" height="150px">
+    <h5 class="card-title" style="color:#ff6600">VARA TIFFINS</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div>
+<div class="card" style="color:#ff6600;width: 300px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/6f3da94bb984d5d99af2d48dcf9d677b" alt="Card image cap" height="150px">
+    <h5 class="card-title" style="color:#ff6600"> FOOD COURT</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div>
+<div class="card" style="color:#ff6600;width: 300px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/snlzu4qejuxi28ljjjzn" alt="Card image cap" height="150px">
+    <h5 class="card-title" style="color:#ff6600">HOTEL BLISS</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div>
+<div class="card" style="color:#ff6600;width: 300px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/scqmj3e1tdrfq7xxd3ku" alt="Card image cap" height="150px">
+    <h5 class="card-title" style="color:#ff6600">HOTSPOT</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div>
+<div class="card" style="color:#ff6600;width: 300px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/vu1gicn8tvhy0vat0lqn" alt="Card image cap" height="150px">
+    <h5 class="card-title" style="color:#ff6600">BIRYANI POINT</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div>
+
+<div class="card" style="color:#ff6600;width: 300px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/09e6e7e2-9e09-4d04-a0c2-2f13e32734b7_826708.JPG" alt="Card image cap" height="150px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div>
+
+  </div>
+
+</div>
+
+
+
+<div class="container-fluid text-center mt-2" style="background:white;">
+         <hr style="color:navy;position: relative;border: none;height: 5px;background: navy;">
+
+        <h1 style="color:#FF6600">RESTAURANTS WITH ONLINE FOOD DELIVERY IN GUNTUR</h1>
+
+       <hr style="color:navy;position: relative;border: none;height: 5px;background: navy;">
+
+       
+       <div class="row" style="gap: 10px;padding-bottom: 30px;margin: 20px;">
+            <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/74780ccddde461d56dcdff387ef7b733" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">ICE BERG</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>ICECREAMS</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/13/733be3c8-fd65-4805-90b6-7b9d8afa8a25_582496.JPG" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">SWEETSWELL</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>SWEETS</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jlk2at5lezdiavt2fs8g" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">TIFFIN HUNT</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>TIFFINS</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/10/8/36221b8b-1d8f-45ba-8861-2a53b5f01aeb_969726.jpg" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">FIESTA</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>STARTERS</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+        </div>
+
+
+
+        <div class="row" style="gap: 10px;padding-bottom: 30px;margin: 20px;">
+            <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/594f3fa8cba7fc87b78b16b6f42333ca" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ml9pirg0mdc6beum2ey5" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/11/abed5c2a-0598-40e3-8c47-a400666a2088_857175.jpg" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/vymswviqh31khtwfph8f" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+        </div>
+
+        <div class="row" style="gap: 10px;padding-bottom: 30px;margin: 20px;">
+
+          <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/18/0af92d09-412d-4768-b4dd-4fa5fc0d11d1_697204.jpg" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+         <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/5/716cd867-e317-4f5a-b066-01d8332f6f62_620962.JPG" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+             <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/3/b1b75b28-9798-4982-add9-8ea1e08db189_920367.jpg" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+             <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/13/733be3c8-fd65-4805-90b6-7b9d8afa8a25_582496.JPG" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+
+
+  <div class="row" style="gap: 10px;padding-bottom: 30px;margin: 20px;">
+            <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/74780ccddde461d56dcdff387ef7b733" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">ICE BERG</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>ICECREAMS</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/13/733be3c8-fd65-4805-90b6-7b9d8afa8a25_582496.JPG" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">SWEETSWELL</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>SWEETS</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jlk2at5lezdiavt2fs8g" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">TIFFIN HUNT</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>TIFFINS</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/10/8/36221b8b-1d8f-45ba-8861-2a53b5f01aeb_969726.jpg" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">FIESTA</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>STARTERS</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+        </div>
+
+
+
+        <div class="row" style="gap: 10px;padding-bottom: 30px;margin: 20px;">
+            <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/594f3fa8cba7fc87b78b16b6f42333ca" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ml9pirg0mdc6beum2ey5" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/11/abed5c2a-0598-40e3-8c47-a400666a2088_857175.jpg" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+   <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/vymswviqh31khtwfph8f" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+        </div>
+
+        <div class="row" style="gap: 10px;padding-bottom: 30px;margin: 20px;">
+
+          <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/18/0af92d09-412d-4768-b4dd-4fa5fc0d11d1_697204.jpg" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+         <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/5/716cd867-e317-4f5a-b066-01d8332f6f62_620962.JPG" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+             <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/3/b1b75b28-9798-4982-add9-8ea1e08db189_920367.jpg" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+             <div class="col" ><div class="card" style="color:#ff6600;width: 250px;height: 250px;">
+  <img class="card-img-top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/13/733be3c8-fd65-4805-90b6-7b9d8afa8a25_582496.JPG" alt="Card image cap" height="120px">
+    <h5 class="card-title" style="color:#ff6600">Pizza Hut</h5>
+    <p class="card-text" style="color:black ;"><i class="fa fa-star" aria-hidden="true" style="background:green;color:white;"></i>&nbsp4.1 • 40-45 mins
+</p><p>Pizzas</p>
+    <a href="#" class="btn " style="background:#ff6600">EXPLORE HOTEL</a>
+</div></div>
+
+
+
+      </div>
+
+
+
+
+<div class="container-fluid text-center mt-2" style="background:white;">
+       <hr style="color:navy;position: relative;border: none;height: 5px;background: navy;">
+
+        <h1 style="color:#FF6600">CITIES WITH FOOD DELIVERY</h1>
+             <hr style="color:navy;position: relative;border: none;height: 5px;background: navy;">
+
+        <div class="row" style="gap: 10px;padding-bottom: 30px;height: 100px;font-size: 30px;margin: 20px;">
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Bangalore</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Gurgaon</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Hyderabad</div>
+           <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Delhi</div>
+        </div>
+       <div class="row" style="gap: 10px;padding-bottom: 30px;height: 100px;font-size: 30px;margin: 20px;">
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Mumbai</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Pune</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in kolkata</div>
+           <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in chennai</div>
+        </div>
+        <div class="row" style="gap: 10px;padding-bottom: 30px;height: 100px;font-size: 30px;margin: 20px;">
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in ahmedabad</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Chandigarh</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Jaipur</div>
+           <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in uttar pradesh</div>
+        </div>
+      </div>
+
+      <div class="container-fluid text-center mt-2" style="background:white;">
+             <hr style="color:navy;position: relative;border: none;height: 5px;background: navy;">
+
+        <h1 style="color:#FF6600">CITIES WITH GROCERY DELIVERY</h1>
+             <hr style="color:navy;position: relative;border: none;height: 5px;background: navy;">
+
+        <div class="row" style="gap: 10px;padding-bottom: 30px;height: 100px;font-size: 30px;margin: 20px;">
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Bangalore</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Gurgaon</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Hyderabad</div>
+           <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Delhi</div>
+        </div>
+       <div class="row" style="gap: 10px;padding-bottom: 30px;height: 100px;font-size: 30px;margin: 20px;">
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Mumbai</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Pune</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in kolkata</div>
+           <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in chennai</div>
+        </div>
+        <div class="row" style="gap: 10px;padding-bottom: 30px;height: 100px;font-size: 30px;margin: 20px;">
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in ahmedabad</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Chandigarh</div>
+          <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in Jaipur</div>
+           <div class="col" style="border: 1px solid grey; border-radius: 10px;">Order food online in uttar pradesh</div>
+        </div>
+      </div>
+
+     <div class="container-fluid p-5 my-5 " style="background: #FF6600;">
+  <!-- Footer -->
+        <footer class="text-center text-lg-start bg-body-tertiary text-muted" style="background: black;">
+          <!-- Section: Social media -->
+          <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style="background: #;">
+            <!-- Left -->
+            <div class="d-none d-lg-block" >
+              <span>NEIGHBOUR FOOD</span>
+            </div>
+            
+          </section>
+         
+          <section class="" style="background: white;">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Content -->
+                  <img src="https://media-assets.swiggy.com/portal/testing/seo-home/Group.svg">
+            <p>© 2024 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">swiggy.com</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h5 class="text-uppercase fw-bold mb-4" style="color:orange;">swiggy@bytexl.in</h5>
+                  
+                  <p class="card-text"><small class="text-body-secondary"><i class="fa fa-linkedin-square rounded-circle" aria-hidden="true" style="font-size:25px"></i>&nbsp&nbsp<i class="fa fa-twitter rounded-circle" aria-hidden="true" style="font-size:25px"></i>&nbsp&nbsp<i class="fa fa-facebook-official rounded-circle" aria-hidden="true" style="font-size:25px"></i>&nbsp&nbsp
+        <i class="fa fa-instagram rounded-circle" aria-hidden="true" style="font-size:25px"></i>&nbsp&nbsp</small></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4" style="color:orange;">
+                    Useful links
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Home</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Pricing</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Platform</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Careers</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Blogs</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Settings</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Help</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4" style="color:orange;">HEADQUARTERS</h6>
+                  <p style="color:grey;">KP2 Associates Inc.,
+            4400 State HWY 121,
+            Suite # 300-0088,
+            Lewisville, TX 75056 USA</p>
+                  <p style="color:white;">,dsdcsd,,</p>
+                  <p style="color:grey;"><h6 class="text-uppercase fw-bold mb-4" style="color:orange;">REGISTERED OFFICE</h6>
+                  <p style="color:grey;">KP2 Associates Inc.,
+            4400 State HWY 121,
+            Suite # 300-0088,
+            Lewisville, TX 75056 USA</p></p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <!-- Section: Links  -->
+
+          <!-- Copyright -->
+          <div class="text-center p-4" style="background: white;">
+            <p style="text-align:center;color: black;">Designed by <strong style="background:#FF6600;font-family: cursive;">SASHIPAVAN</strong></p>
+
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+</div> 
+</body>
+</html>
+
